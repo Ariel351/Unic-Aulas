@@ -1,0 +1,25 @@
+class Numero():
+    pass
+
+class Real(Numero):
+    pass
+
+class Racional(Real):
+    pass
+
+class Irracional(Real):
+    pass
+
+class Complexo(Numero):
+    pass
+    
+A classe Numero é a classe base ou classe pai.
+
+As classes Real, Racional e Irracional herdam da classe Numero.
+
+A classe Real é pai das classes Racional e Irracional, e filha da classe Numero.
+
+As classes Racional e Irracional não têm relação de herança entre si.
+
+A classe Complexo herda da classe Numero.
+
